@@ -1,8 +1,3 @@
-### Advanced Robotics and Autonomous Mobile Systems
-
-Submitted by, 
-- Aadithya Ramamurthy ( 3304090 )( ar2178s )
-- Sameer Tuteja ( 3296444 ) ( st9223s )
 
 Repository contains following,
 - Documentation

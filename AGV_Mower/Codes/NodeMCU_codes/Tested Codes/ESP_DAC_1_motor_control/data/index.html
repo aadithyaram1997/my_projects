@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AGV Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="min.css" />
+  </head>
+  <body>
+    <!-- Start End-->
+    <div class="slds-scope" style="height: 95vh">
+      <div
+        class="slds-grid slds-grid_vertical-align-center slds-grid_align-center"
+        style="height: 100%"
+      >
+        <article class="slds-card" style="width: 90%; max-width: 700px">
+          <div class="slds-card__header slds-grid slds-border_bottom">
+            <header
+              class="slds-media slds-media_center slds-has-flexi-truncate"
+            >
+              <div class="slds-media__body">
+                <h2
+                  class="slds-p-around_small slds-card__header-title slds-align_absolute-center slds-text-heading_large"
+                >
+                  <span>AGV Mover Dashboard</span>
+                </h2>
+              </div>
+            </header>
+          </div>
+          <div class="slds-card__body slds-card__body_inner">
+            <div class="demo-only demo-only--sizing slds-grid slds-wrap">
+              <div class="slds-size_3-of-3">
+                <div
+                  class="slds-box_x-small slds-text-align_center slds-m-around_x-small"
+                >
+                  🔋
+                </div>
+              </div>
+              <div class="slds-size_1-of-3 slds-align_absolute-center">
+                <div
+                  class="slds-box_x-small slds-text-align_center slds-m-around_x-small"
+                >
+                  <div class="slds-form-element">
+                    <label class="slds-checkbox_toggle slds-grid">
+                      <span class="slds-form-element__label slds-m-bottom_none"
+                        >Power</span
+                      >
+                      <input
+                        type="checkbox"
+                        name="checkbox-toggle-16"
+                        id="powerSwitch"
+                        aria-describedby="checkbox-toggle-16"
+                        onchange="sendPowerData()"
+                      />
+                      <span
+                        id="checkbox-toggle-16"
+                        class="slds-checkbox_faux_container"
+                        aria-live="assertive"
+                      >
+                        <span class="slds-checkbox_faux"></span>
+                        <span class="slds-checkbox_on">On</span>
+                        <span class="slds-checkbox_off">Off</span>
+                      </span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="slds-size_2-of-3">
+                <div
+                  class="slds-box slds-box_x-small slds-text-align_center slds-m-around_x-small"
+                >
+                  <div class="slds-form-element">
+                    <label class="slds-form-element__label" for="slider-id-01">
+                      <span class="slds-slider-label">
+                        <span class="slds-slider-label__label"
+                          >Speed Control</span
+                        >
+                      </span>
+                    </label>
+                    <div class="slds-form-element__control">
+                      <div class="slds-slider">
+                        <span class="slds-slider__value" aria-hidden="true"
+                          >Min</span
+                        >
+                        <input
+                          type="range"
+                          id="slider-id-01"
+                          class="slds-slider__range"
+                          min="0"
+                          max="10"
+                          step="5"
+                          value="0"
+                          onchange="sendSpeedData(this.value)"
+                        />
+                        <span class="slds-slider__value" aria-hidden="true"
+                          >Max</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="slds-size_3-of-3">
+                <div
+                  class="slds-box_x-small slds-text-align_center slds-m-around_x-small"
+                ></div>
+              </div>
+
+              <div class="slds-size_3-of-3">
+                <div
+                  class="slds-box_x-small slds-text-align_center slds-m-around_x-small"
+                  id="currentDirection"
+                >
+                  ...
+                </div>
+              </div>
+              <div class="slds-size_1-of-3">
+                <div
+                  class="slds-box_x-small slds-text-align_center slds-m-around_x-small"
+                ></div>
+              </div>
+              <div class="slds-size_1-of-3">
+                <div
+                  class="slds-box_x-small slds-text-align_center slds-m-around_x-small"
+                >
+                  <button
+                    class="slds-button slds-button_brand slds-button_stretch"
+                    onclick="sendMovementData('fwd')"
+                  >
+                    Forward
+                  </button>
+                </div>
+              </div>
+
+              <div class="slds-size_1-of-3">
+                <div
+                  class="slds-box_x-small slds-text-align_center slds-m-around_x-small"
+                ></div>
+              </div>
+
+              <!-- <div class="slds-size_1-of-3">
+                <div
+                  class="slds-box_x-small slds-text-align_center slds-m-around_x-small"
+                ></div>
+              </div> -->
+              <div class="slds-size_1-of-3">
+                <div
+                  class="slds-box_x-small slds-text-align_center slds-m-around_x-small"
+                >
+                  <button
+                    class="slds-button slds-button_brand slds-button_stretch"
+                    onclick="sendMovementData('lft')"
+                  >
+                    Left
+                  </button>
+                </div>
+              </div>
+              <div class="slds-size_1-of-3">
+                <div
+                  class="slds-box_x-small slds-text-align_center slds-m-around_x-small"
+                >
+                  <button
+                    class="slds-button slds-button_brand slds-button_stretch"
+                    onclick="sendMovementData('bwd')"
+                  >
+                    Backward
+                  </button>
+                </div>
+              </div>
+              <!-- <div class="slds-size_1-of-3">
+                <div
+                  class="slds-box_x-small slds-text-align_center slds-m-around_x-small"
+                ></div>
+              </div> -->
+              <div class="slds-size_1-of-3">
+                <div
+                  class="slds-box_x-small slds-text-align_center slds-m-around_x-small"
+                >
+                  <button
+                    class="slds-button slds-button_brand slds-button_stretch"
+                    onclick="sendMovementData('rgt')"
+                  >
+                    Right
+                  </button>
+                </div>
+              </div>
+              <div class="slds-size_3-of-3">
+                <div
+                  class="slds-box_x-small slds-text-align_center slds-m-around_x-small"
+                ></div>
+              </div>
+              <div class="slds-size_3-of-3">
+                <div
+                  class="slds-box_x-small slds-text-align_center slds-m-around_x-small"
+                >
+                  <button
+                    class="slds-button slds-button_destructive slds-button_stretch"
+                    onclick="sendMovementData('stop')"
+                  >
+                    Emergency Stop
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+    <!-- Content End-->
+
+    <!-- Footer Start -->
+    <footer id="footer">
+      <p style="text-align: center; font-size: medium">
+        © AGV Team & FH Aachen -- 2021
+      </p>
+    </footer>
+    <!-- Footer End-->
+
+    <!-- Scripts Start-->
+    <script src="main.js"></script>
+    <!-- Scripts End-->
+  </body>
+</html>

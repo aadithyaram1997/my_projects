@@ -20,7 +20,13 @@ Importing project files and documentation from various sources...
 # 🤖 Mechatronics & Robotics Projects Portfolio
 
 **Aadithya Ramamurthy** | M.Sc. Mechatronics  
-*Robotics, Control Systems, Automation & Embedded Programming*
+*Robotics, Automation & Control Systems, Mobile Robotics and Autonomous Systems, Software Engineering*
+
+Mechatronics engineer (M.Sc.) with a focus on robotics, automation and control systems, and autonomous mobile systems. Currently building this portfolio to document selected academic and research projects completed during my M.Sc. Mechatronics at **FH Aachen**.
+
+Hands-on research experience includes working as a student research assistant at **Fraunhofer IPA (Stuttgart)** and **RWTH Aachen**, contributing to practical robotics and automation tasks, prototyping, and software-focused development in interdisciplinary environments. This repository brings together code, documentation, presentations, and reports across topics such as ROS/ROS2-based mobile robotics, PLC automation, computer vision pipelines, embedded prototyping, sensor integration, and simulation workflows.
+
+The goal is to provide clear, reproducible project snapshots (what was built, how it works, and key results), while continuously improving structure and documentation as the repository is migrated and organized.
 
 This repository contains academic and professional projects from my Master's studies and research work, showcasing expertise in:
 - **Robotics & Automation** (ROS/ROS2, PLC, Python, C++)

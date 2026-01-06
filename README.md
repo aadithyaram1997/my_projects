@@ -41,6 +41,19 @@ This repository contains academic and professional projects from my Master's stu
 
 ## 📂 Projects Overview
 
+
+### 🎓 Master Thesis - Motion Cueing Algorithm (MCA) for Cable Robot
+**Folder:** `THESIS_MCA_Cable_robot`  
+- Implemented **Classical Washout MCA** in Python for cable-driven parallel robot motion simulation
+- Achieved **up to 80% of real platform forces** for standard flight trajectories
+- Performed parameter optimization using cost function for realistic motion perception
+- Integrated libraries for **cable force distribution** and **geometric constraints**
+- **Grade:** 1.3  
+- **Tech:** Python, Motion Cueing, Cable Robots, Optimization
+
+---
+
+
 ###  Autonomous Guided Vehicle (AGV) for Shopfloor Delivery
 **Folder:** `AGV_Mower`  
 - Developed AGV for Industry 4.0 lab with **ROS2** on **Odroid N2**
@@ -51,31 +64,22 @@ This repository contains academic and professional projects from my Master's stu
 
 ---
 
-###  Additive Manufacturing Project
-**Folder:** `Additive_Manufacturing_Project`  
-- Evaluated additive manufacturing process for motor block production
-- Compared with conventional manufacturing methods
-- Conducted **break-even analysis** within given specifications
-- **Tech:** CAD, Manufacturing Process Analysis
+###  Robot Art Gallery
+**Folder:** `Robot_art_gallery`  
+- Programmed **TurtleBot** with **ROS2** to autonomously navigate art gallery environment
+- Implemented **SLAM mapping** to create environment map and navigate to specified coordinates
+- Developed **image detection system** using **YOLO** and **OpenCV** to identify artworks on walls
+- Detected **AprilTag markers** associated with each artwork for identification
+- **Tech:** ROS2, Python, OpenCV, YOLO, TurtleBot, AprilTag Detection, SLAM
 
 ---
 
-###  Angular Rate Sensor Characterization
-**Folder:** `Characterisation_of_angular_rate_sensor`  
-- Characterized **ADXRS300** and **Bosch SMG040** sensors with **LabVIEW**
-- Built measurement setup with turntable control
-- Achieved rotation rates up to **350°/s** with sensitivity **5.17–6.78 mV/°/s**
-- Analyzed response curves and saturation behavior
-- **Tech:** LabVIEW State Machine, Sensor Testing, Data Acquisition
-
----
-
-###  Angular Rate Sensor Concept Design
-**Folder:** `Design_of_angular_rate_sensor`  
-- Designed **Coriolis-based angular rate sensor** in **MEMSPro**
-- Sized spring-mass system with differential detection and self-test
-- Calculated **PolyMUMPs** process structural parameters in **MATLAB**
-- **Tech:** MEMS Design, PolyMUMPs Process
+###  Autonomous Unmanned Aerial Vehicle (UAV)
+**Folder:** `UAV_Project`  
+- Programmed UAV in **Gazebo** for autonomous takeoff, navigation through color-coded gates, and landing
+- Developed gate detection system using **OpenCV** (HSV filtering, contour tracking, center alignment)
+- Implemented sequential **yaw correction** and loop maneuvers
+- **Tech:** Gazebo, ROS2, OpenCV, Python, Computer Vision
 
 ---
 
@@ -99,35 +103,36 @@ This repository contains academic and professional projects from my Master's stu
 
 ---
 
-###  Robot Art Gallery
-**Folder:** `Robot_art_gallery`  
-- Programmed **TurtleBot** with **ROS2** to autonomously navigate art gallery environment
-- Implemented **SLAM mapping** to create environment map and navigate to specified coordinates
-- Developed **image detection system** using **YOLO** and **OpenCV** to identify artworks on walls
-- Detected **AprilTag markers** associated with each artwork for identification
-- **Tech:** ROS2, Python, OpenCV, YOLO, TurtleBot, AprilTag Detection, SLAM
+
+###  Angular Rate Sensor Characterization
+**Folder:** `Characterisation_of_angular_rate_sensor`  
+- Characterized **ADXRS300** and **Bosch SMG040** sensors with **LabVIEW**
+- Built measurement setup with turntable control
+- Achieved rotation rates up to **350°/s** with sensitivity **5.17–6.78 mV/°/s**
+- Analyzed response curves and saturation behavior
+- **Tech:** LabVIEW State Machine, Sensor Testing, Data Acquisition
 
 ---
 
-### 🎓 Master Thesis - Motion Cueing Algorithm (MCA) for Cable Robot
-**Folder:** `THESIS_MCA_Cable_robot`  
-- Implemented **Classical Washout MCA** in Python for cable-driven parallel robot motion simulation
-- Achieved **up to 80% of real platform forces** for standard flight trajectories
-- Performed parameter optimization using cost function for realistic motion perception
-- Integrated libraries for **cable force distribution** and **geometric constraints**
-- **Grade:** 1.3  
-- **Tech:** Python, Motion Cueing, Cable Robots, Optimization
+###  Angular Rate Sensor Concept Design
+**Folder:** `Design_of_angular_rate_sensor`  
+- Designed **Coriolis-based angular rate sensor** in **MEMSPro**
+- Sized spring-mass system with differential detection and self-test
+- Calculated **PolyMUMPs** process structural parameters in **MATLAB**
+- **Tech:** MEMS Design, PolyMUMPs Process
 
 ---
 
-###  Autonomous Unmanned Aerial Vehicle (UAV)
-**Folder:** `UAV_Project`  
-- Programmed UAV in **Gazebo** for autonomous takeoff, navigation through color-coded gates, and landing
-- Developed gate detection system using **OpenCV** (HSV filtering, contour tracking, center alignment)
-- Implemented sequential **yaw correction** and loop maneuvers
-- **Tech:** Gazebo, ROS2, OpenCV, Python, Computer Vision
+###  Additive Manufacturing Project
+**Folder:** `Additive_Manufacturing_Project`  
+- Evaluated additive manufacturing process for motor block production
+- Compared with conventional manufacturing methods
+- Conducted **break-even analysis** within given specifications
+- **Tech:** CAD, Manufacturing Process Analysis
 
 ---
+
+
 
 ## 🛠️ Tech Stack
 

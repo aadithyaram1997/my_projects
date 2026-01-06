@@ -163,7 +163,7 @@ my-projects/
 **Aadithya Ramamurthy**  
 📧 aadithyaram1997@gmail.com  
 🔗 [GitHub](https://github.com/aadithyaram1997)  
-💼 [LinkedIn](www.linkedin.com/in/aadithya-ramamurthy)
+💼 [LinkedIn](#) *(www.linkedin.com/in/aadithya-ramamurthy)*
 
 ---
 

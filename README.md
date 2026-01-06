@@ -43,7 +43,7 @@ This repository contains academic and professional projects from my Master's stu
 
 ---
 
-### 🎨 Additive Manufacturing Project
+###  Additive Manufacturing Project
 **Folder:** `Additive_Manufacturing_Project`  
 - Evaluated additive manufacturing process for motor block production
 - Compared with conventional manufacturing methods
@@ -52,7 +52,7 @@ This repository contains academic and professional projects from my Master's stu
 
 ---
 
-### 📐 Angular Rate Sensor Characterization
+###  Angular Rate Sensor Characterization
 **Folder:** `Characterisation_of_angular_rate_sensor`  
 - Characterized **ADXRS300** and **Bosch SMG040** sensors with **LabVIEW**
 - Built measurement setup with turntable control
@@ -62,7 +62,7 @@ This repository contains academic and professional projects from my Master's stu
 
 ---
 
-### 🛠️ Angular Rate Sensor Concept Design
+###  Angular Rate Sensor Concept Design
 **Folder:** `Design_of_angular_rate_sensor`  
 - Designed **Coriolis-based angular rate sensor** in **MEMSPro**
 - Sized spring-mass system with differential detection and self-test
@@ -71,7 +71,7 @@ This repository contains academic and professional projects from my Master's stu
 
 ---
 
-### 🌱 Cost-Effective Autonomous Lawn Mower Prototype
+###  Cost-Effective Autonomous Lawn Mower Prototype
 **Folder:** `Lawn_mower_prototype`  
 - Built autonomous lawn mower with **Arduino** and **NodeMCU ESP32**
 - Programmed in **Embedded C** with obstacle avoidance, boundary detection, line following
@@ -81,7 +81,7 @@ This repository contains academic and professional projects from my Master's stu
 
 ---
 
-### 🏭 PLC Project - Beckhoff TwinCAT System
+###  PLC Project - Beckhoff TwinCAT System
 **Folder:** `PLC_Project_Block_Diagram`  
 - Automated robotic test setup using **Beckhoff TwinCAT PLC**
 - Developed **Structured Text (IEC 61131)** and **HMI UI** for control visualization
@@ -91,7 +91,7 @@ This repository contains academic and professional projects from my Master's stu
 
 ---
 
-### 🎭 Robot Art Gallery
+###  Robot Art Gallery
 **Folder:** `Robot_art_gallery`  
 - Programmed **TurtleBot** with **ROS2** to autonomously navigate art gallery environment
 - Implemented **SLAM mapping** to create environment map and navigate to specified coordinates
@@ -112,7 +112,7 @@ This repository contains academic and professional projects from my Master's stu
 
 ---
 
-### 🚁 Autonomous Unmanned Aerial Vehicle (UAV)
+###  Autonomous Unmanned Aerial Vehicle (UAV)
 **Folder:** `UAV_Project`  
 - Programmed UAV in **Gazebo** for autonomous takeoff, navigation through color-coded gates, and landing
 - Developed gate detection system using **OpenCV** (HSV filtering, contour tracking, center alignment)

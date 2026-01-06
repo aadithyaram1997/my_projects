@@ -19,7 +19,7 @@ Importing project files and documentation from various sources...
 
 # 🤖 Mechatronics & Robotics Projects Portfolio
 
-<img align="right" src="https://avatars.githubusercontent.com/u/249375404" width="160" alt="Profile photo" />
+<img align="right" src="https://avatars.githubusercontent.com/u/249375404" width="260" alt="Profile photo" />
 
 **Aadithya Ramamurthy** | M.Sc. Mechatronics  
 *Robotics, Automation & Control Systems, Mobile Robotics and Autonomous Systems, Software Engineering*

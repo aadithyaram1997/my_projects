@@ -44,7 +44,7 @@ This repository contains academic and professional projects from my Master's stu
 
 ### 🤖🏭 Autonomous Guided Vehicle (AGV) for Shopfloor Delivery
 
-<img align="right" src="Images/AGV.jpg" width="280" alt="AGV image" />
+<img align="right" src="Images/AGV.png" width="280" alt="AGV image" />
 
 **Folder:** `AGV_Mower`  
 - Developed AGV for Industry 4.0 lab with **ROS2** on **Odroid N2**

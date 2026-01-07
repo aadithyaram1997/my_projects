@@ -96,7 +96,7 @@ This repository contains academic and professional projects from my Master's stu
 
 ###  📟🔌PLC Project - Beckhoff TwinCAT System
 
-<img align="right" src="Images/PLC.png" width="320" alt="PLC image" />
+<img align="right" src="Images/PLC.png" width="280" alt="PLC image" />
 
 
 **Folder:** `PLC_Project_Block_Diagram`  
@@ -111,6 +111,9 @@ This repository contains academic and professional projects from my Master's stu
 
 ### 📈🧭 Angular Rate Sensor Characterization
 **Folder:** `Characterisation_of_angular_rate_sensor`  
+
+<img align="right" src="Images/ARS.jpg" width="280" alt="ARS image" />
+
 - Characterized **ADXRS300** and **Bosch SMG040** sensors with **LabVIEW**
 - Built measurement setup with turntable control
 - Achieved rotation rates up to **350°/s** with sensitivity **5.17–6.78 mV/°/s**
@@ -120,6 +123,7 @@ This repository contains academic and professional projects from my Master's stu
 ---
 
 ###  📐🧭 Angular Rate Sensor Concept Design
+<img align="right" src="Images/ARS_Design.png" width="280" alt="ARS design image" />
 **Folder:** `Design_of_angular_rate_sensor`  
 - Designed **Coriolis-based angular rate sensor** in **MEMSPro**
 - Sized spring-mass system with differential detection and self-test
@@ -129,6 +133,9 @@ This repository contains academic and professional projects from my Master's stu
 ---
 
 ### 🧱⚙️ Additive Manufacturing Project
+
+<img align="right" src="Images/ARS_Design.png" width="180" alt="AM image" />
+
 **Folder:** `Additive_Manufacturing_Project`  
 - Evaluated additive manufacturing process for motor block production
 - Compared with conventional manufacturing methods

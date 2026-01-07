@@ -1,9 +1,12 @@
 
 # 🤖 Projects & Experience Portfolio
 
-<img align="right" src="https://avatars.githubusercontent.com/u/249375404" width="260" alt="Profile photo" />
+
 
 ## **Aadithya Ramamurthy** | M.Sc. Mechatronics  
+
+<img align="right" src="https://avatars.githubusercontent.com/u/249375404" width="260" alt="Profile photo" />
+
 *Robotics, Automation & Control Systems, Mobile Robotics and Autonomous Systems, Software Engineering*
 
 Mechatronics engineer (M.Sc.) with a focus on robotics, automation and control systems, and autonomous mobile systems. Currently building this portfolio to document selected academic and research projects completed during my M.Sc. Mechatronics at **FH Aachen**.

@@ -1,10 +1,58 @@
-The XML file contains the paramenters that are logged from the flightgear simulator. Currently acceleations x,y,z and rotations roll, pitch and yaw from pilots perspective are recorded.
+# ✈️ FlightGear data logging (CSV) — Parameters for Motion Cueing
 
-Use the following command(change file path), in the terminal of flightgear that can be found in the settings  
-'fgfs --config="C:\Users\mrf-ar\AppData\Roaming\flightgear.org\Export\flightgear_dataset.xml'
+This folder contains the FlightGear logging setup used to record motion data for the thesis (input to the Classical Washout motion cueing pipeline).
 
-The data from the flight is recorded and saved in a CSV file after flying in flightgear and closing the application.
+---
 
-Example of logged parameter data is given.
+## 📌 What is logged?
+The XML config logs the following signals from the pilot / aircraft perspective:
 
-NOTE - the data can only be logged in the folder 'AppData\Roaming\flightgear.org\Export'
+- Translational accelerations: **ax, ay, az**
+- Rotations / attitude: **roll, pitch, yaw**
+
+Output is saved as a **CSV** file after the FlightGear run is finished.
+
+---
+
+## 📁 Files in this folder
+- `flightgear_dataset.xml` — FlightGear logging configuration (defines which parameters are exported).
+- `*.csv` — Example logged datasets (recorded after flying and closing FlightGear).
+
+---
+
+## ▶️ How to log data in FlightGear (Windows)
+
+### 1) Copy the XML to the FlightGear Export folder
+FlightGear only exports logs to this directory:
+
+```text
+C:\Users\<YOUR_USERNAME>\AppData\Roaming\flightgear.org\Export
+```
+### 2)  Run FlightGear with the config file
+Open the FlightGear built-in terminal (Settings → Terminal) and run:
+
+```bash
+fgfs --config="C:\Users\<YOUR_USERNAME>\AppData\Roaming\flightgear.org\Export\flightgear_dataset.xml"
+```
+
+(Replace <YOUR_USERNAME> or adjust the path to match your machine.)
+
+### 3) Fly the trajectory and close FlightGear
+
+After you finish flying and close the FlightGear application, the logged data is written to a CSV file in:
+
+```text
+...\AppData\Roaming\flightgear.org\Export
+
+```
+
+## ✅ Notes / common issues
+
+- Logging works only if the XML is placed in:
+``` text
+AppData\Roaming\flightgear.org\Export
+```
+- If no CSV appears:
+    - Double-check the XML filename/path in the --config="..." command.
+    - Ensure FlightGear was closed properly (logging finalizes on exit).
+

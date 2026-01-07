@@ -56,6 +56,9 @@ This repository contains academic and professional projects from my Master's stu
 ---
 
 ###  🤖🖼️ Robot Art Gallery
+
+<img align="right" src="Images/RAG.gif" width="280" alt="Robot art gallery GIF" />
+
 **Folder:** `Robot_art_gallery`  
 - Programmed **TurtleBot** with **ROS2** to autonomously navigate art gallery environment
 - Implemented **SLAM mapping** to create environment map and navigate to specified coordinates

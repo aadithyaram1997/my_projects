@@ -110,9 +110,12 @@ This repository contains academic and professional projects from my Master's stu
 
 
 ### 📈🧭 Angular Rate Sensor Characterization
-**Folder:** `Characterisation_of_angular_rate_sensor`  
 
 <img align="right" src="Images/ARS.jpg" width="280" alt="ARS image" />
+
+**Folder:** `Characterisation_of_angular_rate_sensor`  
+
+
 
 - Characterized **ADXRS300** and **Bosch SMG040** sensors with **LabVIEW**
 - Built measurement setup with turntable control
@@ -132,10 +135,9 @@ This repository contains academic and professional projects from my Master's stu
 - **Tech:** MEMS Design, PolyMUMPs Process
 
 ---
+<img align="right" src="Images/AM.png" width="180" alt="AM image" />
 
 ### 🧱⚙️ Additive Manufacturing Project
-
-<img align="right" src="Images/AM.png" width="180" alt="AM image" />
 
 **Folder:** `Additive_Manufacturing_Project`  
 - Evaluated additive manufacturing process for motor block production

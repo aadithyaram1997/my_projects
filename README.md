@@ -29,7 +29,7 @@ This repository contains academic and professional projects from my Master's stu
 
 ### 🎓 Master Thesis - Motion Cueing Algorithm (MCA) for Cable Robot
 
-<img align="right" src="Images/MCA.jpg" width="280" alt="Projects overview image" />
+<img align="right" src="Images/MCA.jpg" width="280" alt="MCA image" />
 
 **Folder:** `THESIS_MCA_Cable_robot`  
 - Implemented **Classical Washout MCA** in Python for cable-driven parallel robot for motion simulation
@@ -43,6 +43,9 @@ This repository contains academic and professional projects from my Master's stu
 
 
 ### 🤖🏭 Autonomous Guided Vehicle (AGV) for Shopfloor Delivery
+
+<img align="right" src="Images/AGV.jpg" width="280" alt="AGV image" />
+
 **Folder:** `AGV_Mower`  
 - Developed AGV for Industry 4.0 lab with **ROS2** on **Odroid N2**
 - Implemented object detection using **IFM 3D camera**

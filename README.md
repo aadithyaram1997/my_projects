@@ -5,7 +5,7 @@
 
 ## **Aadithya Ramamurthy** | M.Sc. Mechatronics  
 
-<img align="right" src="https://avatars.githubusercontent.com/u/249375404" width="460" alt="Profile photo" />
+<img align="right" src="https://avatars.githubusercontent.com/u/249375404" width="260" alt="Profile photo" />
 
 *Robotics, Automation & Control Systems, Mobile Robotics and Autonomous Systems, Software Engineering*
 
@@ -29,7 +29,7 @@ This repository contains academic and professional projects from my Master's stu
 
 ### 🎓 Master Thesis - Motion Cueing Algorithm (MCA) for Cable Robot
 
-<img align="right" src="Images/MCA.jpg" width="180" alt="Projects overview image" />
+<img align="right" src="Images/MCA.jpg" width="280" alt="Projects overview image" />
 
 **Folder:** `THESIS_MCA_Cable_robot`  
 - Implemented **Classical Washout MCA** in Python for cable-driven parallel robot for motion simulation

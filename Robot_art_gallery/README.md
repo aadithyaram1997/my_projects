@@ -8,7 +8,7 @@ This project runs a TurtleBot3 in a simulated art gallery, performs SLAM + waypo
 
 ## 📁 Repository structure
 - `my_robot_slam/` — ROS2 package (launch files for SLAM + execution)
-- `Documentation/` — Project report (PDF) and related notes 📄
+- `Documentation/` — Project report (PDF) 📄
 - `Project_video/` — Demo video(s) 🎥
 - `README.md` — This file 🧾
 
@@ -90,7 +90,7 @@ ros2 launch my_robot_slam begin.launch.py
 
 - The final output displays detected artworks 🖼️ together with associated AprilTag IDs 🏷️.
 
-### Notes/ Known issues
+### ⚠️ Notes/ Known issues
 
 - If real-time detection is heavy on the laptop 💻, it can be more stable to capture wall images first and run detection after.
 

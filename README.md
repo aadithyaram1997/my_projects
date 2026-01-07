@@ -28,12 +28,15 @@ This repository contains academic and professional projects from my Master's stu
 
 
 ### 🎓 Master Thesis - Motion Cueing Algorithm (MCA) for Cable Robot
+
+<img align="right" src="Images/MCA.jpg" width="180" alt="Projects overview image" />
+
 **Folder:** `THESIS_MCA_Cable_robot`  
 - Implemented **Classical Washout MCA** in Python for cable-driven parallel robot for motion simulation
 - Achieved **up to 80% of real platform forces** for standard flight trajectories compared to the simulated forces on FlighGear Software
 - Performed parameter optimization using cost function for realistic motion perception
 - Integrated libraries for **cable force distribution** and **geometric constraints**
-- **Grade:** 1.3  
+- **Grade:** 1.3  (German grade - Maximum 1.0 , Minimum 4.0)
 - **Tech:** Python, Motion Cueing, Cable Robots, Optimization
 
 ---
@@ -171,6 +174,7 @@ my-projects/
 ├── Additive_Manufacturing_Project/ # Manufacturing analysis
 ├── Characterisation_of_angular_rate_sensor/ # Sensor characterization
 ├── Design_of_angular_rate_sensor/ # MEMS sensor design
+├── Images/ # Images used in this README
 ├── Lawn_mower_prototype/ # Arduino lawn mower
 ├── PLC_Project_Block_Diagram/ # TwinCAT PLC system
 ├── Robot_art_gallery/ # Robot Art Gallery

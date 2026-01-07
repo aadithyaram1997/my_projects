@@ -124,6 +124,7 @@ This repository contains academic and professional projects from my Master's stu
 
 ###  📐🧭 Angular Rate Sensor Concept Design
 <img align="right" src="Images/ARS_Design.png" width="280" alt="ARS design image" />
+
 **Folder:** `Design_of_angular_rate_sensor`  
 - Designed **Coriolis-based angular rate sensor** in **MEMSPro**
 - Sized spring-mass system with differential detection and self-test
@@ -134,7 +135,7 @@ This repository contains academic and professional projects from my Master's stu
 
 ### 🧱⚙️ Additive Manufacturing Project
 
-<img align="right" src="Images/ARS_Design.png" width="180" alt="AM image" />
+<img align="right" src="Images/AM.png" width="180" alt="AM image" />
 
 **Folder:** `Additive_Manufacturing_Project`  
 - Evaluated additive manufacturing process for motor block production

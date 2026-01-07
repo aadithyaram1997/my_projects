@@ -5,7 +5,7 @@
 
 ## **Aadithya Ramamurthy** | M.Sc. Mechatronics  
 
-<img align="right" src="https://avatars.githubusercontent.com/u/249375404" width="260" alt="Profile photo" />
+<img align="right" src="https://avatars.githubusercontent.com/u/249375404" width="460" alt="Profile photo" />
 
 *Robotics, Automation & Control Systems, Mobile Robotics and Autonomous Systems, Software Engineering*
 

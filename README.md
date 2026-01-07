@@ -135,6 +135,31 @@ Git · Docker · CI/CD · LabVIEW · Jira · Confluence
 
 ---
 
+## 💼 Work Experience
+
+### Research Assistant — Fraunhofer IPA, Stuttgart (11/2023 – 07/2025)
+- Automated and commissioned a closed-loop robotics test setup using Beckhoff TwinCAT PLC, including a UI/HMI for control and visualization (Structured Text).
+- Integrated sensors to the PLC via EtherCAT and Digital I/O.
+- Documented the applicability of ISO 12100 for humanoid-related systems/workflows.
+- Developed approaches for collision path programming for a UR-10 cobot in Visual Components (VC), including adapting the Python add-in and UI.
+- Simulated collision scenarios for the UR10 by varying tool orientations, positions, and collision surfaces in VC.
+- Completed training in KUKA System Software 8.5, including robot programming and teaching.
+
+### Research Assistant — RWTH Aachen, Aachen (02/2022 – 12/2022)
+- Contributed to an autonomous and connected driving project by debugging and validating a ROS1 pipeline.
+- Helped develop object segmentation and lane detection nodes in ROS2/RViz and ran scenario tests in Virtual Test Drive.
+
+### Intern — Villgro Innovations Foundation, Bengaluru (11/2019 – 01/2020)
+- Supported planning, marketing, and organization of “Unconvention” (annual summit for investors).
+- Conducted time-to-market analysis for CleanTech start-ups and built a database of investment opportunities.
+
+### Intern — Technologies Global Private Limited, Bengaluru (01/2019 – 03/2019)
+- Worked on mechanical design tasks using CATIA V5 and PLM processes.
+
+### Intern — Bharat Electronics Limited, Bengaluru (01/2018 – 02/2018)
+- Training in the manufacturing department, including exposure to CNC machines and additive manufacturing technologies.
+
+---
 ## 📚 Repository Structure
 
 ```text

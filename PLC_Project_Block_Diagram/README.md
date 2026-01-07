@@ -29,7 +29,10 @@ Caption: Overall architecture of the PLC-controlled measurement setup (TwinCAT H
 ## 🤖 Measurement & validation workflow
 
 - Executed measurement experiments on an industrial robot (KUKA-based setup).
-- Collected sensor data during robot motion and test sequences.
+- Validated robot motion using external metrology: a Leica laser tracker, connected to PLC via EtherCAT was used to measure the actual robot/tool motion.
+- The test bench (linear axis) moved through defined trajectories, and the robot tool tip was commanded to move accordingly.
+- A laser scanner mounted on the robot provided additional measurement/feedback, while the laser tracker served as the ground-truth reference.
+- Collected sensor data (force/torque sensor, linear axis encoder, laser tracker) during robot motion and test sequences and made key values available in the PLC/HMI.
 - Evaluated measured values and checked consistency against expected/calculated values to verify accuracy and reliability of the control and measurement chain.
 - Used the visualization to run repeatable experiments and to monitor key signals during commissioning and testing.
 

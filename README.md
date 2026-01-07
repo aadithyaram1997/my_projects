@@ -95,6 +95,10 @@ This repository contains academic and professional projects from my Master's stu
 ---
 
 ###  📟🔌PLC Project - Beckhoff TwinCAT System
+
+<img align="right" src="Images/PLC.png" width="280" alt="PLC image" />
+
+
 **Folder:** `PLC_Project_Block_Diagram`  
 - Automated robotic test setup using **Beckhoff TwinCAT PLC**
 - Developed **Structured Text (IEC 61131)** and **HMI UI** for control visualization

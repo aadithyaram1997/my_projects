@@ -1,21 +1,3 @@
-<div align="center">
-
-# 🚧 UNDER CONSTRUCTION 🚧
-
-**Repository migration in progress**  
-Importing project files and documentation from various sources...  
-
-📁 Adding project files  
-🔧 Organizing structure  
-⏳ Full setup coming soon  
-
-⭐ **Star/Watch for updates!**
-
-</div>
-
-<br>
-
----
 
 # 🤖 Mechatronics & Robotics Projects Portfolio
 
@@ -44,8 +26,8 @@ This repository contains academic and professional projects from my Master's stu
 
 ### 🎓 Master Thesis - Motion Cueing Algorithm (MCA) for Cable Robot
 **Folder:** `THESIS_MCA_Cable_robot`  
-- Implemented **Classical Washout MCA** in Python for cable-driven parallel robot motion simulation
-- Achieved **up to 80% of real platform forces** for standard flight trajectories
+- Implemented **Classical Washout MCA** in Python for cable-driven parallel robot for motion simulation
+- Achieved **up to 80% of real platform forces** for standard flight trajectories compared to the simulated forces on FlighGear Software
 - Performed parameter optimization using cost function for realistic motion perception
 - Integrated libraries for **cable force distribution** and **geometric constraints**
 - **Grade:** 1.3  
@@ -163,7 +145,7 @@ my-projects/
 ├── Design_of_angular_rate_sensor/ # MEMS sensor design
 ├── Lawn_mower_prototype/ # Arduino lawn mower
 ├── PLC_Project_Block_Diagram/ # TwinCAT PLC system
-├── Robot_art_gallery/ # UR10 collision simulation
+├── Robot_art_gallery/ # Robot Art Gallery
 ├── THESIS_MCA_Cable_robot/ # Master thesis files
 ├── UAV_Project/ # Autonomous UAV code
 └── README.md # This file
@@ -190,6 +172,18 @@ This repository is for **portfolio and educational purposes**. Individual projec
 
 **⭐ Star this repo if you find it useful!**  
 **👁️ Watch for project updates as files are being added**
+
+**Repository migration in progress**  
+Importing project files and documentation from various sources
+
+📁 Adding project files  
+🔧 Organizing structure  
+⏳ Full setup coming soon  
+
+
+</div>
+
+<br>
 
 </div>
 

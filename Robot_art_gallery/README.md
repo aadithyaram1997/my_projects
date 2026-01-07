@@ -9,7 +9,7 @@ This project runs a TurtleBot3 in a simulated art gallery, performs SLAM + waypo
 ## 🖼️ Screenshots
 
 **Initialisation (SLAM / Nav2 bringup)**  
-![Initialisation](Images/Initialisation.jpg)
+![Initialisation](Images/Intialisation.jpg)
 
 **Navigation with image detection**  
 ![Navigation](Images/Navigation.jpg)

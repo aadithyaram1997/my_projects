@@ -58,6 +58,41 @@ cd ~/ros_ws
 colcon build --symlink-install
 
 ```
+### ▶️ Run (3 terminals) 🖥️🖥️🖥️
+Open three terminals and run the following:
 
+### Terminal 1 — Start Gazebo simulation 🌍
 
+```bash
+cd ~/ros_ws
+source install/setup.bash
+ros2 launch tb3_gazebo arams.launch.py
+```
+
+### Terminal 2 — Start SLAM initialization 🗺️
+
+```bash
+cd ~/ros_ws
+source install/setup.bash
+ros2 launch my_robot_slam initiate.launch.py
+```
+
+### Terminal 3 — Start main execution (navigation + capture + detection) 🚶‍♂️📸🔍
+
+```bash
+cd ~/ros_ws
+source install/setup.bash
+ros2 launch my_robot_slam begin.launch.py
+```
+
+### 🧾 Output
+- The robot navigates to defined waypoints 📍, faces walls 🧭, captures images 📸, and runs detection 🔎.
+
+- The final output displays detected artworks 🖼️ together with associated AprilTag IDs 🏷️.
+
+### Notes/ Known issues
+
+- If real-time detection is heavy on the laptop 💻, it can be more stable to capture wall images first and run detection after.
+
+- If the robot collides with a wall 💥, restart the simulation and rerun the launch sequence.
 

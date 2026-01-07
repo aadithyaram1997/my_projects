@@ -69,6 +69,10 @@ This repository contains academic and professional projects from my Master's stu
 ---
 
 ###  🤖🚁 Autonomous Unmanned Aerial Vehicle (UAV)
+
+<img align="right" src="Images/UAV.gif" width="280" alt="UAV GIF" />
+
+
 **Folder:** `UAV_Project`  
 - Programmed UAV in **Gazebo** for autonomous takeoff, navigation through color-coded gates, and landing
 - Developed gate detection system using **OpenCV** (HSV filtering, contour tracking, center alignment)

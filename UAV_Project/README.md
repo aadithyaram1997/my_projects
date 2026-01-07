@@ -7,7 +7,7 @@ Gate detection is done using OpenCV (HSV filtering + contour detection + centeri
 
 ## 🖼️ Simulation (screenshots)
 
-<img src="Images/Steps.png" />
+<img src="Images/Steps.png" width="1000" />
 
 ---
 

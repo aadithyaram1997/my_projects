@@ -80,6 +80,7 @@ This repository contains academic and professional projects from my Master's stu
 - **Tech:** Gazebo, ROS2, OpenCV, Python, Computer Vision
 
 ---
+<img align="right" src="Images/Mower.gif" width="140" alt="Mower GIF" />
 
 ###  🤖🌱 Cost-Effective Autonomous Lawn Mower Prototype
 

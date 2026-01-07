@@ -6,6 +6,20 @@ This project runs a TurtleBot3 in a simulated art gallery, performs SLAM + waypo
 
 ---
 
+## 🖼️ Screenshots
+
+**Initialisation (SLAM / Nav2 bringup)**  
+![Initialisation](Images/Initialisation.jpg)
+
+**Navigation with image detection**  
+![Navigation](Images/Navigation.jpg)
+
+**Output at the end**  
+![Output](Images/Output.jpg)
+
+---
+
+
 ## 📁 Repository structure
 - `my_robot_slam/` — ROS2 package (launch files for SLAM + execution)
 - `Documentation/` — Project report (PDF) 📄

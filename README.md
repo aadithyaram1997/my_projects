@@ -83,7 +83,7 @@ This repository contains academic and professional projects from my Master's stu
 
 ###  🤖🌱 Cost-Effective Autonomous Lawn Mower Prototype
 
-<img align="right" src="Images/Mower.gif" width="280" alt="Mower GIF" />
+<img align="right" src="Images/Mower.gif" width="140" alt="Mower GIF" />
 
 **Folder:** `Lawn_mower_prototype`  
 - Built autonomous lawn mower with **Arduino** and **NodeMCU ESP32**

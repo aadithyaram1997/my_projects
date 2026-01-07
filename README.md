@@ -96,7 +96,7 @@ This repository contains academic and professional projects from my Master's stu
 
 ###  📟🔌PLC Project - Beckhoff TwinCAT System
 
-<img align="right" src="Images/PLC.png" width="280" alt="PLC image" />
+<img align="right" src="Images/PLC.png" width="320" alt="PLC image" />
 
 
 **Folder:** `PLC_Project_Block_Diagram`  

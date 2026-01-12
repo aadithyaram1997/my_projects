@@ -1,5 +1,5 @@
 
-# 🤖 Projects & Experience Portfolio
+# Projects & Experience Portfolio
 
 
 
@@ -27,7 +27,7 @@ This repository contains academic and professional projects from my Master's stu
 ## 📂 Projects Overview
 
 
-### 🎓 Master Thesis - Motion Cueing Algorithm (MCA) for Cable Robot
+### Master Thesis - Motion Cueing Algorithm (MCA) for Cable Robot
 
 <img align="right" src="Images/MCA.jpg" width="280" alt="MCA image" />
 
@@ -42,7 +42,7 @@ This repository contains academic and professional projects from my Master's stu
 ---
 
 
-### 🤖🏭 Autonomous Guided Vehicle (AGV) for Shopfloor Delivery
+### Autonomous Guided Vehicle (AGV) for Shopfloor Delivery
 
 <img align="right" src="Images/AGV.png" width="280" alt="AGV image" />
 
@@ -55,7 +55,7 @@ This repository contains academic and professional projects from my Master's stu
 
 ---
 
-###  🤖🖼️ Robot Art Gallery
+### Robot Art Gallery
 
 <img align="right" src="Images/RAG.gif" width="280" alt="Robot art gallery GIF" />
 
@@ -68,7 +68,7 @@ This repository contains academic and professional projects from my Master's stu
 
 ---
 
-###  🤖🚁 Autonomous Unmanned Aerial Vehicle (UAV)
+### Autonomous Unmanned Aerial Vehicle (UAV)
 
 <img align="right" src="Images/UAV.gif" width="280" alt="UAV GIF" />
 
@@ -82,7 +82,7 @@ This repository contains academic and professional projects from my Master's stu
 ---
 <img align="right" src="Images/Mower.gif" width="130" alt="Mower GIF" />
 
-###  🤖🌱 Cost-Effective Autonomous Lawn Mower Prototype
+### Cost-Effective Autonomous Lawn Mower Prototype
 
 
 **Folder:** `Lawn_mower_prototype`  
@@ -94,7 +94,7 @@ This repository contains academic and professional projects from my Master's stu
 
 ---
 
-###  📟🔌PLC Project - Beckhoff TwinCAT System
+### PLC Project - Beckhoff TwinCAT System
 
 <img align="right" src="Images/PLC.png" width="280" alt="PLC image" />
 
@@ -109,7 +109,7 @@ This repository contains academic and professional projects from my Master's stu
 ---
 
 
-### 📈🧭 Angular Rate Sensor Characterization
+### Angular Rate Sensor Characterization
 
 <img align="right" src="Images/ARS.jpg" width="280" alt="ARS image" />
 
@@ -125,7 +125,7 @@ This repository contains academic and professional projects from my Master's stu
 
 ---
 
-###  📐🧭 Angular Rate Sensor Concept Design
+### Angular Rate Sensor Concept Design
 <img align="right" src="Images/ARS_Design.png" width="280" alt="ARS design image" />
 
 **Folder:** `Design_of_angular_rate_sensor`  
@@ -137,7 +137,7 @@ This repository contains academic and professional projects from my Master's stu
 ---
 <img align="right" src="Images/AM.png" width="180" alt="AM image" />
 
-### 🧱⚙️ Additive Manufacturing Project
+### Additive Manufacturing Project
 
 **Folder:** `Additive_Manufacturing_Project`  
 - Evaluated additive manufacturing process for motor block production
@@ -149,7 +149,7 @@ This repository contains academic and professional projects from my Master's stu
 
 
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 **Programming Languages:**  
 ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white) 
@@ -168,7 +168,7 @@ Git · Docker · CI/CD · LabVIEW · Jira · Confluence
 
 ---
 
-## 💼 Work Experience
+## Work Experience
 
 ### Research Assistant — Fraunhofer IPA, Stuttgart (11/2023 – 07/2025)
 - Automated and commissioned a closed-loop robotics test setup using Beckhoff TwinCAT PLC, including a UI/HMI for control and visualization (Structured Text).
@@ -193,7 +193,7 @@ Git · Docker · CI/CD · LabVIEW · Jira · Confluence
 - Training in the manufacturing department, including exposure to CNC machines and additive manufacturing technologies.
 
 ---
-## 📚 Repository Structure
+## Repository Structure
 
 ```text
 my-projects/
@@ -212,16 +212,16 @@ my-projects/
 
 ---
 
-## 📫 Contact
+## Contact
 
 **Aadithya Ramamurthy**  
-📧 aadithyaram1997@gmail.com  
-🔗 [GitHub](https://github.com/aadithyaram1997)  
-💼 [LinkedIn](#) *(www.linkedin.com/in/aadithya-ramamurthy)*
+Email: aadithyaram1997@gmail.com  
+[GitHub](https://github.com/aadithyaram1997)  
+[LinkedIn](#) *(www.linkedin.com/in/aadithya-ramamurthy)*
 
 ---
 
-## 📜 License
+## License
 
 This repository is for **portfolio and educational purposes**. Individual project licenses may apply.
 
@@ -229,15 +229,15 @@ This repository is for **portfolio and educational purposes**. Individual projec
 
 <div align="center">
 
-**⭐ Star this repo if you find it useful!**  
-**👁️ Watch for project updates as files are being added**
+**Star this repo if you find it useful!**  
+**Watch for project updates as files are being added**
 
 **Repository migration in progress**  
 Importing project files and documentation from various sources
 
-📁 Adding project files  
-🔧 Organizing structure  
-⏳ Full setup coming soon  
+Adding project files  
+Organizing structure  
+Full setup coming soon  
 
 
 </div>

@@ -67,6 +67,8 @@ This block diagram shows the 3-channel Classical Washout setup used in this thes
 
 <p align="center">
   <img src="Images/Block_diagram.jpg" width="900" alt="Classical Washout block diagram" />
+  <br />
+  <em>Classical Washout block diagram</em>
 </p>
 
 ---
@@ -80,6 +82,8 @@ High-level pipeline followed in this project:
 
 <p align="center">
   <img src="Images/Workflow.jpg" width="700" alt="Thesis workflow" />
+  <br />
+  <em>Thesis workflow</em>
 </p>
 
 ---
@@ -164,6 +168,8 @@ Overall, this validates that the chosen cut-off frequencies provide a clean sepa
 
 <p align="center">
   <img src="Images/Filters.jpg" width="900" alt="Effect of high-pass and low-pass filtering (X-axis)" />
+  <br />
+  <em>Effect of high-pass and low-pass filtering (X-axis)</em>  
 </p>
 
 ---
@@ -176,6 +182,8 @@ This figure shows the transformation from raw integrated signals (which drift an
 
 <p align="center">
   <img src="Images/Poses.jpg" width="900" alt="Platform pose results (translation and rotation)" />
+  <br />
+  <em>Platform pose results (translation and rotation)</em>    
 </p>
 
 ---
@@ -187,6 +195,8 @@ This comparison shows how closely the motion-cued trajectory preserves the overa
 
 <p align="center">
   <img src="Images/Forces.jpg" width="900" alt="Platform forces comparison before and after motion cueing" />
+  <br />
+  <em>Platform forces comparison before and after motion cueing</em>      
 </p>
 
 ---
@@ -198,6 +208,8 @@ This figure compares force distribution across all 8 cables before and after par
 
 <p align="center">
   <img src="Images/Force_Distribution.jpg" width="900" alt="Cable forces before and after optimisation" />
+  <br />
+  <em>Cable forces before and after optimisation</em>    
 </p>
 
 ---

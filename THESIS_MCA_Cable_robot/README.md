@@ -113,6 +113,8 @@ The Force Factor is computed per sample and per axis, then aggregated (typically
 
 <p align="center">
   <img src="Images/cfo.jpg" width="700" alt="Cost function optimisation flowchart" />
+  <br />
+  <em>Cost function optimisation flowchart</em>
 </p>
 
 ---

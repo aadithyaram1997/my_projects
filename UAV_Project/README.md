@@ -1,17 +1,17 @@
-# 🛩️ Autonomous UAV Gate Navigation (ROS2 + Gazebo + OpenCV)
+#  Autonomous UAV Gate Navigation (ROS2 + Gazebo + OpenCV)
 
 This project implements an autonomous UAV in Gazebo that takes off, searches for colour-coded gates, aligns to the gate, performs a loop manoeuvre while passing through, and finally returns to origin and lands.  
 Gate detection is done using OpenCV (HSV filtering + contour detection + centering/alignment logic) based on the UAV camera stream.
 
 ---
 
-## 🖼️ Simulation (screenshots)
+##  Simulation (screenshots)
 
 <img src="Images/Steps.png" width="1000" />
 
 ---
 
-## 🧠 Methodology (high level)
+##  Methodology (high level)
 
 1. Start from HOME position.  
 2. Take off and reach a target height.  
@@ -24,7 +24,7 @@ Gate detection is done using OpenCV (HSV filtering + contour detection + centeri
 
 ---
 
-## 👁️ Gate detection pipeline (OpenCV)
+##  Gate detection pipeline (OpenCV)
 
 - Subscribe to the camera topic and convert to OpenCV image format with correct encoding.
 - Blur the image, convert/filter in HSV, and create a colour mask for the current target gate.
@@ -34,13 +34,13 @@ Gate detection is done using OpenCV (HSV filtering + contour detection + centeri
 
 ---
 
-## 📡 Obstacle awareness (LiDAR)
+##  Obstacle awareness (LiDAR)
 
 While navigating between gates, LiDAR/laser scan data is used to detect objects during motion (supporting safer navigation and debugging).
 
 ---
 
-## 📁 Repository contents
+##  Repository contents
 - `p_arams/` — ROS2 package for the project.
 - `Documentation_Aadithya_Sameer.pdf` — Project document.
 - `Video_of_project_*.mp4` — Demonstration videos.
@@ -48,7 +48,7 @@ While navigating between gates, LiDAR/laser scan data is used to detect objects 
 
 ---
 
-## ▶️ Run the project
+## ▶ Run the project
 
 From your ROS2 workspace (build + source first):
 
@@ -62,7 +62,7 @@ ros2 launch p_arams fly.launch.py
 ros2 run p_arams project_script
 ```
 
-### 🚀 Future improvements
+###  Future improvements
 
 - Improve process flow and robustness of the state machine.
 - Optimize and make motion commands more precise using position-based control.

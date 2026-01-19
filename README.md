@@ -29,7 +29,7 @@ This repository contains academic and professional projects from my Master's stu
 
 ### Master Thesis - Motion Cueing Algorithm (MCA) for Cable Robot
 
-<img align="right" src="Images/MCA.jpg" width="280" alt="MCA image" />
+<img align="right" src="Images/MCA_2.jpg" width="280" alt="MCA image" />
 
 **Folder:** `THESIS_MCA_Cable_robot`  
 - Implemented **Classical Washout MCA** in Python for cable-driven parallel robot for motion simulation

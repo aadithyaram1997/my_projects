@@ -71,7 +71,7 @@ This block diagram shows the 3-channel Classical Washout setup used in this thes
 
 ---
 
-### 🔁 Overall workflow (data → motion cues → feasibility)
+###  Overall workflow (data → motion cues → feasibility)
 High-level pipeline followed in this project:
 - Log motion data from FlightGear and export CSV
 - Generate motion cues using Classical Washout (6-DOF pose trajectory)
@@ -91,7 +91,7 @@ This flowchart shows the parameter optimisation loop:
 - Check force feasibility via force distribution
 - Update parameters only if feasible and cost improves
 
-### 🧮 Force Factor (Cost) — term definitions
+### Force Factor (Cost) - term definitions
 
 This cost metric measures how closely the motion-cued output reproduces the original (simulated) force profile along a given axis.
 
@@ -146,6 +146,57 @@ The Force Factor is computed per sample and per axis, then aggregated (typically
 -  A complete simulation pipeline was developed to generate **force-feasible** motion cues for a CDPR using a Classical Washout Algorithm.
 -  The cost-function optimisation produced modest improvements in the cost metric in some cases, and improved overall force stability in cable force distribution plots.
 -  The approach was additionally tested on different trajectories and payload conditions.
+
+---
+
+## Results (Graphical representation)
+
+### 1) Effect of filtering (example: X-axis)
+This figure illustrates how the Classical Washout filtering separates motion into components:
+- High-frequency components are hightlighted by green and low frequency-components are highlighted by red.
+- High-pass filtering preserves short, high-frequency acceleration events (onset cues).
+- Low-pass filtering captures sustained low-frequency components that are later handled via tilt coordination.
+Overall, this validates that the chosen cut-off frequencies provide a clean separation for motion cueing.
+
+---
+
+<p align="center">
+  <img src="Images/Filters.jpg" width="900" alt="Effect of high-pass and low-pass filtering (X-axis)" />
+</p>
+
+---
+
+### 2) Platform pose generation (translation + rotation)
+This figure shows the transformation from raw integrated signals (which drift and exceed limits) to controlled platform poses after applying washout:
+- High-pass filtering reduces drift from direct integration.
+- Washout damping drives the platform back toward neutral over time.
+- Roll/pitch also include tilt-coordination components to represent sustained accelerations using gravity.
+
+<p align="center">
+  <img src="Images/Poses.jpg" width="900" alt="Platform pose results (translation and rotation)" />
+</p>
+
+---
+
+### 3) Platform forces (input vs after motion cueing)
+This comparison shows how closely the motion-cued trajectory preserves the overall force trends of the original input:
+- Deviations are expected due to scaling, filtering, and washout.
+- The goal is to preserve perceptually important dynamics while keeping the platform feasible.
+
+<p align="center">
+  <img src="Images/Forces.jpg" width="900" alt="Platform forces comparison before and after motion cueing" />
+</p>
+
+---
+
+### 4) Cable force distribution (before vs after optimisation)
+This figure compares force distribution across all 8 cables before and after parameter optimisation:
+- After optimisation, cable forces are typically smoother and more stable (reduced fluctuations).
+- This supports feasibility and improves load consistency across the cable robot during the trajectory.
+
+<p align="center">
+  <img src="Images/Force_Distribution.jpg" width="900" alt="Cable forces before and after optimisation" />
+</p>
 
 ---
 

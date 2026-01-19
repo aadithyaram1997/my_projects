@@ -23,8 +23,8 @@ The work focuses on implementing and evaluating a **Classical Washout Algorithm 
 
 ###  1) Dataset generation (FlightGear)
 A flight trajectory dataset is created using FlightGear by logging:
-- 📈 Translational accelerations (x, y, z)
-- 🧭 Rotations / attitude (roll, pitch, yaw)
+-  Translational accelerations (x, y, z)
+-  Rotations / attitude (roll, pitch, yaw)
 
 These signals are exported to CSV and used as the input to the motion cueing algorithm.
 
@@ -55,19 +55,81 @@ Optimisation is performed to tune selected washout parameters (primarily transla
 
 ---
 
+
+
+##  Diagrams (pipeline + algorithm)
+
+###  Classical Washout (CWA) structure
+This block diagram shows the 3-channel Classical Washout setup used in this thesis:
+- Translational channel: high-frequency accelerations → platform translations
+- Tilt-coordination channel: low-frequency components approximated via gravity tilt
+- Rotational channel: high-frequency angular cues → platform rotations
+
+<p align="center">
+  <img src="Images/Block_diagram.jpg" width="900" alt="Classical Washout block diagram" />
+</p>
+
+---
+
+### 🔁 Overall workflow (data → motion cues → feasibility)
+High-level pipeline followed in this project:
+- Log motion data from FlightGear and export CSV
+- Generate motion cues using Classical Washout (6-DOF pose trajectory)
+- Validate each pose using cable force distribution constraints
+- Iterate parameters if poses are infeasible
+
+<p align="center">
+  <img src="Images/Workflow.jpg" width="700" alt="Thesis workflow" />
+</p>
+
+---
+
+### Cost function optimisation loop (optional step)
+This flowchart shows the parameter optimisation loop:
+- Start from manually tuned parameters and bounds
+- Compute cost (force-factor style metric)
+- Check force feasibility via force distribution
+- Update parameters only if feasible and cost improves
+
+### 🧮 Force Factor (Cost) — term definitions
+
+This cost metric measures how closely the motion-cued output reproduces the original (simulated) force profile along a given axis.
+
+- **F_axis**: Raw/input force along the selected axis from the original trajectory (before applying the motion cueing algorithm).
+- **F_axis_post**: Force along the same axis after applying the motion cueing algorithm (forces implied by the generated platform motion cues).
+- **Offset**: Small constant added to improve numerical stability and reduce extreme ratios when the raw force is close to zero.
+
+**Why add an Offset in the denominator?**
+- **Avoid division by zero** when **F_axis** is close to 0.
+- **Reduce outlier inflation** for very small forces, where even a small absolute difference could produce an unrealistically large ratio.
+
+#### How to interpret it
+- Lower value = better match between original forces and post-cueing forces.
+- Higher value = larger deviation introduced by scaling, filtering, washout damping, and platform limits.
+
+#### How it is used in this thesis
+The Force Factor is computed per sample and per axis, then aggregated (typically using the mean over all samples of a trajectory) to produce a single cost value used for evaluating and optimising washout parameters, while ensuring cable-force feasibility.
+
+
+<p align="center">
+  <img src="Images/cfo.jpg" width="700" alt="Cost function optimisation flowchart" />
+</p>
+
+---
+
 ##  Running the project (typical workflow)
 
-1. Go to `Codes/Flight gear parameters/` ✈️  
+1. Go to `Codes/Flight gear parameters/` 
    Generate / log FlightGear motion data to CSV.
 
-2. Go to `Codes/MCA Classical Washout/` 🌀  
+2. Go to `Codes/MCA Classical Washout/`   
    Run the CWA implementation to generate motion cues (output CSV + plots).
 
-3. Go to `Codes/Force distribution/` 🧵  
+3. Go to `Codes/Force distribution/`   
    Compute cable forces for the generated motion cues and validate feasibility.
 
-4. (Optional) Use `Codes/Cost_factor/` and `Codes/FD_cost_factor/` 🧮  
-   Evaluate force-factor metrics and run optimisation variants.
+4. (Optional) Use `Codes/Cost_factor/` and `Codes/FD_cost_factor/`   
+   Evaluate force-factor metrics.
 
 ---
 
@@ -93,4 +155,4 @@ Optimisation is performed to tune selected washout parameters (primarily transla
 -  Optimisation of rotational parameters (not only translational damping)
 -  Axis-wise / decoupled optimisation strategies
 -  Adaptive platform orientation / origin shifting for better workspace usage
-- ⏱ Real-time optimisation and generalisation to other CDPR systems
+-  Real-time optimisation and generalisation to other CDPR systems

@@ -10,7 +10,7 @@ This repository documents one of my main automation tasks at Fraunhofer IPA: com
 
 <img src="Images/Block_Diagram.png" width="750" />
 
-Caption: Overall architecture of the PLC-controlled measurement setup (TwinCAT HMI ↔ PLC ↔ EtherCAT/Digital I/O ↔ motors/sensors, plus robot + metrology). 
+ Overall architecture of the PLC-controlled measurement setup (TwinCAT HMI ↔ PLC ↔ EtherCAT/Digital I/O ↔ motors/sensors, plus robot + metrology). 
 
 ---
 

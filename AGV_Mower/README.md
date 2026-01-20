@@ -32,9 +32,6 @@ My main work focused on embedded deployment + perception experiments:
   <em>AGV prototype used for shopfloor delivery experiments (left) and CAD overview (right)</em>
 </p>
 
-<p align="center">
-  <em>AGV prototype used for shopfloor delivery experiments (left) and CAD overview (right)</em>
-</p>
 
 <p align="center">
   <img src="Images/ifm.jpg" width="900" alt="IFM 3D camera: point-cloud clustering for object/obstacle segmentation" />

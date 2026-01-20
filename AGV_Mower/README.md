@@ -46,7 +46,7 @@ My main work focused on embedded deployment + perception experiments:
 </p>
 
 <p align="center">
-  <img src="Images/ar.jpg" width="900" alt="AR marker detection test (marker ID, pose/orientation used as a station cue)" />
+  <img src="Images/ar_tag.jpg" width="900" alt="AR marker detection test (marker ID, pose/orientation used as a station cue)" />
   <br />
   <em>AR marker detection test (marker ID, pose/orientation used as a station cue)</em>
 </p>

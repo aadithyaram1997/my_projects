@@ -38,26 +38,32 @@ During measurement, the turntable motion is converted to angular rate and compar
 The measurement setup mounts the sensors on a turntable and reads the sensor output voltage while the turntable is rotated at defined speeds/turn counts. [file:614]  
 ADXRS300 is mounted with spacers to isolate sensor terminals; SMG040 is mounted vertically because its sensitive axis is horizontal to the chip. [file:614]
 
-### ADXRS300 setup photo
+### ADXRS300 setup 
 <p align="center">
   <img src="Images/setup_adxrs300.jpg" width="800" alt="ADXRS300 mounting on the turntable setup" />
   <br />
   <em>ADXRS300 mounting and wiring on the turntable setup</em>
 </p>
 
-### ADXRS300 setup photo
 <p align="center">
   <img src="Images/setup_adxrs300_2.jpg" width="800" alt="ADXRS300  wiring on the turntable setup" />
   <br />
   <em>ADXRS300 wiring on the turntable setup</em>
 </p>
 
-### Bosch SMG040 setup photo
+### Bosch SMG040 setup 
 <p align="center">
   <img src="Images/setup_smg040.jpg" width="800" alt="Bosch SMG040 mounting orientation on the turntable setup" />
   <br />
   <em>Bosch SMG040 mounting orientation on the turntable setup</em>
 </p>
+
+<p align="center">
+  <img src="Images/setup_smg040_2.jpg" width="800" alt="Bosch SMG040 wiring orientation on the turntable setup" />
+  <br />
+  <em>Bosch SMG040 wiring orientation on the turntable setup</em>
+</p>
+
 
 ---
 

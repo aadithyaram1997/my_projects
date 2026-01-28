@@ -1,30 +1,29 @@
-# Angular Rate Sensor Characterisation (LabVIEW) — ADXRS300 vs Bosch SMG040
+# Angular Rate Sensor Characterisation (LabVIEW) - ADXRS300 and Bosch SMG040
 
-This project characterises two MEMS angular-rate sensors (**Analog Devices ADXRS300** and **Bosch SMG040**) using a turntable-based measurement setup and a LabVIEW-driven measurement workflow. [file:614]  
-The goal is to estimate key sensor parameters (zero-rate output and sensitivity) by measuring output voltage versus angular rate and comparing against expected behaviour. [file:614]
+This project characterises two MEMS angular-rate sensors (**Analog Devices ADXRS300** and **Bosch SMG040**) using a turntable-based measurement setup and a LabVIEW-driven measurement workflow.  
+The goal is to estimate key sensor parameters (zero-rate output and sensitivity) by measuring output voltage versus angular rate and comparing against expected behaviour. 
 
 ---
 
 ## Brief introduction
-Angular-rate sensors (gyroscopes) measure the rate of rotation of an object with respect to an inertial frame (yaw, pitch, roll) and are used in automotive safety systems such as anti-skid and stability control. [file:614]  
-ADXRS300 measures rotation along the axis normal to the top surface, while SMG040 is a micro-machined gyro intended for rollover-related sensing applications. [file:614]
+Angular-rate sensors (gyroscopes) measure the rate of rotation of an object with respect to an inertial frame (yaw, pitch, roll) and are used in automotive safety systems such as anti-skid and stability control. 
+ADXRS300 measures rotation along the axis normal to the top surface, while SMG040 is a micro-machined gyro intended for rollover-related sensing applications. 
 
 ---
 
 ## Main characteristic parameters
-This characterisation focuses on the parameters listed in the report: **range of operation**, **zero value voltage**, and **sensor sensitivity**. [file:614]
+This characterisation focuses on the parameters listed in the report: **range of operation**, **zero value voltage**, and **sensor sensitivity**. 
 
 ### Parameters and definitions
-- **Zero-rate output (Zero Value Voltage):** sensor output voltage when angular rate is ~0 deg/s. [file:614]
-- **Sensitivity:** slope of output voltage vs angular rate (mV/deg/s). [file:614]
-- **Maximum usable rate / saturation:** the angular rate beyond which the output no longer behaves linearly (sensor saturates). [file:614]
+- **Zero-rate output (Zero Value Voltage):** sensor output voltage when angular rate is ~0 deg/s. 
+- **Sensitivity:** slope of output voltage vs angular rate (mV/deg/s). 
+- **Maximum usable rate / saturation:** the angular rate beyond which the output no longer behaves linearly (sensor saturates). 
 
 ---
 
 ## Formula used
 During measurement, the turntable motion is converted to angular rate and compared against sensor output voltage to estimate sensitivity. [file:614]
 
-Add your formula screenshot here (from your report) and keep the caption short:
 
 <p align="center">
   <img src="Images/formula.png" width="650" alt="Formula used for angular rate and sensitivity calculation" />

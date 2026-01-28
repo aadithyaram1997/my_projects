@@ -68,20 +68,18 @@ ADXRS300 is mounted with spacers to isolate sensor terminals; SMG040 is mounted 
 ---
 
 ## Measurement strategy
-The measurement strategy follows the workflow described in the report: rotate the turntable via LabVIEW by a specified number of turns and speed, read out the sensor voltage, compute angular velocity of the turntable, and compute sensitivity. [file:614]
 
-Add the short version of the steps:
 
-- Rotate the turntable using LabVIEW (set speed / number of turns). [file:614]
-- Measure sensor output voltage during motion. [file:614]
-- Compute angular rate of the turntable from the motion command/turns. [file:614]
-- Compute sensitivity from the relation between output voltage and angular rate. [file:614]
 
-(Optional) Add any notes you want here about repeatability, averaging, or filtering.
+- Rotate the turntable using LabVIEW by a specified number of turns and speed (specified in Labview giving input - dValue). 
+- Measure sensor output voltage during motion. 
+- Compute angular rate/velocity of the turntable from the motion command/turns. 
+- Compute sensitivity from the relation between output voltage and angular rate. 
+
 
 ---
 
-## State flow diagram (you will add)
+## State flow diagram 
 <p align="center">
   <img src="Images/state_flow.png" width="850" alt="LabVIEW state flow diagram for the measurement sequence" />
   <br />
@@ -90,7 +88,7 @@ Add the short version of the steps:
 
 ---
 
-## UI / Front panel (you will add)
+## UI / Front panel 
 <p align="center">
   <img src="Images/ui_front_panel.png" width="900" alt="LabVIEW front panel used to control the turntable and log sensor readings" />
   <br />
@@ -99,7 +97,7 @@ Add the short version of the steps:
 
 ---
 
-## VI block diagram (you will add)
+## VI block diagram 
 <p align="center">
   <img src="Images/vi_block_diagram.png" width="900" alt="LabVIEW VI block diagram (signal flow and computation blocks)" />
   <br />
@@ -111,11 +109,11 @@ Add the short version of the steps:
 ## Results
 
 ### ADXRS300 — key results
-From the report results:
-- **Average sensitivity:** 5.17 mV/deg/s (observed). [file:614]
-- **Specified sensitivity range:** 4.6–5.4 mV/deg/s. [file:614]
-- **Zero value voltage:** 2.56 V. [file:614]
-- **Saturation noted around:** ~400 deg/s (shown as saturation behaviour). [file:614]
+
+- **Average sensitivity:** 5.17 mV/deg/s (observed). 
+- **Specified sensitivity range:** 4.6–5.4 mV/deg/s. 
+- **Zero value voltage:** 2.56 V. 
+- **Saturation noted around:** ~400 deg/s (shown as saturation behaviour). 
 
 <p align="center">
   <img src="Images/measurement_table_adxrs300.png" width="900" alt="ADXRS300 measurement table (time, turns, rate, voltage, sensitivity)" />
@@ -138,11 +136,11 @@ From the report results:
 ---
 
 ### Bosch SMG040 — key results
-From the report results:
-- **Average sensitivity:** 6.78 mV/deg/s (observed). [file:614]
-- **Specified sensitivity range:** 6.50–7.50 mV/deg/s. [file:614]
-- **Zero value voltage:** 2.34 V. [file:614]
-- **Saturation noted around:** ~350 deg/s (shown as saturation behaviour). [file:614]
+
+- **Average sensitivity:** 6.78 mV/deg/s (observed). 
+- **Specified sensitivity range:** 6.50–7.50 mV/deg/s. 
+- **Zero value voltage:** 2.34 V. 
+- **Saturation noted around:** ~350 deg/s (shown as saturation behaviour). 
 
 <p align="center">
   <img src="Images/measurement_table_smg040.png" width="900" alt="Bosch SMG040 measurement table (time, turns, rate, voltage, sensitivity)" />
@@ -164,23 +162,23 @@ From the report results:
 
 ---
 
-## Comparison summary (from conclusion)
+## Comparison summary 
 | Property | ADXRS300 | Bosch SMG040 |
 |---|---:|---:|
 | Maximum rate (deg/s) | 350 | 300 |
 | Sensitivity (mV/deg/s) | 5.17 | 6.78 |
 | Zero value voltage (V) | 2.56 | 2.34 |
 
-These values are taken from the report conclusion table. [file:614]
 
 ---
 
 ## Conclusion
-Both sensors show sensitivities within the specified ranges reported in the document, and saturation behaviour is visible at high angular rates (ADXRS300 around ~400 deg/s; SMG040 around ~350 deg/s). [file:614]  
-Overall, the setup and LabVIEW workflow are sufficient to estimate zero-rate output and sensitivity from voltage vs angular-rate measurements. [file:614]
+Both sensors show sensitivities within the specified ranges reported in the document, and saturation behaviour is visible at high angular rates (ADXRS300 around ~400 deg/s; SMG040 around ~350 deg/s). 
+Overall, the setup and LabVIEW workflow are sufficient to estimate zero-rate output and sensitivity from voltage vs angular-rate measurements. 
 
 ---
 
-## Files
-- `characterisation_pdf.pdf` — original report/reference document
+## Repo Files
+- `AngularRateSensor- S&A_final` — original presentation of the project
+- `characterisation_pdf.pdf` — Presentation as a pdf
 - `Images/` — measurement setup photos, UI screenshots, block diagrams, and plots

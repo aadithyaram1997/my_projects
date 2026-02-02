@@ -183,7 +183,7 @@ Troubleshooting includes clock/scheduling corrections, removing debris from unde
 Completed features include: pre-defined arena coverage, obstacle avoidance, boundary/edge detection, low-battery return via line-following, and a web interface for manual/autonomous control with emergency stop and battery indicator.
 
 <p align="center">
-  <img src="Images/project_2.gif" width="250" alt="Mowhawk in action" />
+  <img src="Images/project_2.gif" width="350" alt="Mowhawk in action" />
   <br />  
   <em>Mowhawk in action</em>
 </p>

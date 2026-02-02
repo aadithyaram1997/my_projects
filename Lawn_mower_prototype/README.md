@@ -209,12 +209,15 @@ Arduino Uno, V5 shield, ESP32, L298N motor driver, IR sensors, ultrasonic sensor
 
 ---
 
-## Documents
-- Requirements specification: `Requirement-specification-document-Aadithya-and-Vedha.pdf`
-- User manual: `user-manual.pdf`
-- Project presentation: `THE-Mow-hawk.pdf`
+## Repo contents
+- Codes used: `Codes/`  
+- Images used in README: `Images/`  
+- Project presentation (slides/PDF): `Project_Presentation/`
+- Requirement spec document: `Requirement specification document/`
+- User manual document(s): `User manual/`  
+- Full demo video: `Project_video.mp4`  
+
 
 ---
 
-## Credits
-Prepared by Aadithya Ramamurthy and Vedhashruthi Harinath.
+

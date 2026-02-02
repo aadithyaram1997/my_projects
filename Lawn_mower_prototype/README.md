@@ -1,4 +1,4 @@
-# THE MOW-HAWK — Low-cost autonomous lawn mower prototype
+# THE MOW-HAWK - Low-cost autonomous lawn mower prototype
 
 A low-cost autonomous lawn mower prototype built for learning **Systems Engineering** and **embedded systems** using Arduino + ESP32, including boundary detection, obstacle avoidance, battery monitoring, and a browser-based web interface.
 
@@ -181,6 +181,14 @@ Troubleshooting includes clock/scheduling corrections, removing debris from unde
 
 ### 3.1 What works (demo features)
 Completed features include: pre-defined arena coverage, obstacle avoidance, boundary/edge detection, low-battery return via line-following, and a web interface for manual/autonomous control with emergency stop and battery indicator.
+
+<p align="center">
+  <img src="project.gif" width="850" alt="Mowhawk in action" />
+  <br />  
+  <em>Mowhawk in action</em>
+</p>
+
+For the full video, check the mp4 file.
 
 ### 3.2 Components (as used)
 Arduino Uno, V5 shield, ESP32, L298N motor driver, IR sensors, ultrasonic sensor, DC motors, batteries + power bank, wheels/base/cover.
